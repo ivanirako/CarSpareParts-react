@@ -1,4 +1,4 @@
-export const API_URL = "http://localhost:8081/api/v2.0";
+export const API_URL = "https://car-spare-parts-production.up.railway.app/api/v2.0";
 
 // logout function
 export const logout = (e: any) => {
