@@ -1,0 +1,115 @@
+.home-page{
+    background: url('automotive-workshop-background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #f4f4f9;
+    font-family: 'Roboto', sans-serif;
+
+    .navbar {
+        background: linear-gradient(90deg, #1a2a6c, #b21f1f);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        font-size: 1.5rem;
+        color: #ffffff !important;
+        letter-spacing: 1.5px;
+    }
+
+    .nav-link {
+        font-size: 1.1rem;
+        color: #e3f2fd !important;
+        margin-left: 15px;
+        transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+        color: #ffd700 !important;
+    }
+
+    h1 {
+        color: #333;
+        font-weight: 700;
+        letter-spacing: 1.2px;
+        background: -webkit-linear-gradient(#1a2a6c, #b21f1f);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        text-transform: uppercase;
+    }
+
+    p.lead {
+        font-size: 1.2rem;
+        color: #555;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .btn-primary {
+        background-color: #1a2a6c;
+        border: none;
+        padding: 12px 24px;
+        font-size: 1.1rem;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: #b21f1f;
+        transform: translateY(-3px);
+    }
+
+    .btn-secondary {
+        background-color: #555;
+        border: none;
+        padding: 12px 24px;
+        font-size: 1.1rem;
+        transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .btn-secondary:hover {
+        background-color: #333;
+        transform: translateY(-3px);
+    }
+
+    input[type="text"], input[type="email"] {
+        border: 1px solid #1a2a6c;
+        padding: 10px 10px 10px 35px;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 15px;
+        background-color: rgba(255, 255, 255, 0.8);
+    }
+
+    input[type="text"]::placeholder, input[type="email"]::placeholder {
+        color: #888;
+        font-style: italic;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        background-color: #1a2a6c;
+        color: #fff;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        left: 0;
+    }
+
+    .input-icon {
+        position: relative;
+    }
+
+    .input-icon i {
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #1a2a6c;
+    }
+
+    .card {
+        background-color: rgba(255, 255, 255, 0.9);
+        border-radius: 15px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+}

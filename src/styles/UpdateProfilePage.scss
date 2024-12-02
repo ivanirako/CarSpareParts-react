@@ -1,0 +1,101 @@
+.update-profile-page {
+    --metal-gray: #5a6268;
+    --oil-black: #1c1c1c;
+    --rubber-dark: #3a3a3a;
+    --chrome-silver: #c0c0c0;
+    --warning-orange: #ffa500;
+
+    background-image: url('/api/placeholder/1920/1080');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'Roboto', sans-serif;
+    color: var(--oil-black);
+
+    .navbar {
+        background-color: var(--rubber-dark);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .navbar-brand {
+        font-weight: bold;
+        color: var(--chrome-silver) !important;
+    }
+
+    .nav-link {
+        color: var(--chrome-silver) !important;
+        margin-left: 15px;
+        transition: color 0.3s ease;
+    }
+
+    .nav-link:hover {
+        color: var(--warning-orange) !important;
+    }
+
+    .card {
+        background-color: rgba(255, 255, 255, 0.9);
+        border: none;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+        margin-top: 40px;
+    }
+
+    .card-header {
+        background-color: var(--metal-gray);
+        color: var(--chrome-silver);
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .form-label {
+        font-weight: bold;
+        color: var(--rubber-dark);
+    }
+
+    .form-control {
+        border-radius: 5px;
+        padding: 10px 10px 10px 35px;
+        border: 1px solid var(--metal-gray);
+    }
+
+    .form-control:focus {
+        box-shadow: 0 0 0 0.2rem rgba(90, 98, 104, 0.25);
+        border-color: var(--metal-gray);
+    }
+
+    .input-icon {
+        position: absolute;
+        left: 10px;
+        top: 38px;
+        color: var(--metal-gray);
+    }
+
+    .btn-primary {
+        background-color: var(--metal-gray);
+        border: none;
+        transition: all 0.3s ease;
+    }
+
+    .btn-primary:hover {
+        background-color: var(--rubber-dark);
+        transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+        background-color: var(--chrome-silver);
+        border: none;
+        color: var(--rubber-dark);
+        transition: all 0.3s ease;
+    }
+
+    .btn-secondary:hover {
+        background-color: var(--warning-orange);
+        color: var(--oil-black);
+        transform: translateY(-2px);
+    }
+
+    @media (max-width: 768px) {
+        .card {
+            margin-top: 20px;
+        }
+    }
+}
