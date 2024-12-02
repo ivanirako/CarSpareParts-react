@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent, useEffect, useState } from 'react'
+import { ChangeEvent, FormEvent, useEffect, useState } from 'react'
 import "../styles/UpdateProfilePage.scss"
 import { Link, useParams } from 'react-router-dom';
 import { API_URL } from '../utils/constants';
@@ -100,6 +100,7 @@ const handleSubmit = (e: FormEvent) => {
           </div>
           {/* Feedback Messages */}
           {error && <div className="alert alert-danger"><i className="fas fa-exclamation-circle"></i> {error}</div>}
+          {errorMessage && <div className="alert alert-danger"><i className="fas fa-exclamation-circle"></i> {errorMessage}</div>}
           {success && <div className="alert alert-success"><i className="fas fa-check-circle"></i> {success}</div>}
           
        {user == null ? <div>
