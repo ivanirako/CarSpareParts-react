@@ -12,7 +12,6 @@ The application combines powerful management tools with an intuitive interface.
 
 .User Dashboard
 .Personalized information display based on user roles
-.Quick Booking Form
 .Profile Overview with picture upload/download
 .Interactive UI elements
 .Multilanguages
